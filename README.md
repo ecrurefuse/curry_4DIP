@@ -1,4 +1,4 @@
-# curry-4DIP
+# curry_4DIP
 # Numerical Iteration via 4DIP: Taming Singularities and Infinity (Curry 4DIP)
 
 ## Overview
