@@ -13,7 +13,7 @@ This repository provides the formal documentation, pseudocode, and supplementary
 - **Singularity Taming**: Delivers finite outputs at extreme scales, where conventional solvers (e.g., RK45) diverge.
 
 ## Contents
-- **curry_4dip_git.pdf**: Comprehensive documentation, methodology, and results. [Download here](https://github.com/curry_4DIP/Curry-4DIP/blob/main/curry_4dip_git.pdf).  
+- **curry_4dip_git.pdf**: Comprehensive documentation, methodology, and results. [Download here](https://https://github.com/ecrurefuse/curry_4DIP/blob/main/curry_4dip_git.pdf).  
 - **Pseudocode**: Detailed in the paper (Section 5), with standalone implementation forthcoming.  
 - **License**: MIT License—see [LICENSE](https://github.com/curry_4DIP/Curry-4DIP/blob/main/LICENSE).
 
