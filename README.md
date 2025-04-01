@@ -15,7 +15,7 @@ This repository provides the formal documentation, pseudocode, and supplementary
 ## Contents
 - **curry_4dip_git.pdf**: Comprehensive documentation, methodology, and results. [Download here](https://github.com/ecrurefuse/curry_4DIP/blob/main/curry_4dip_git.pdf).  
 - **Pseudocode**: Detailed in the paper (Section 5), with standalone implementation forthcoming.  
-- **License**: MIT License—see [LICENSE](https://https://github.com/ecrurefuse/curry_4DIP/blob/main/LICENSE).
+- **License**: MIT License—see [LICENSE](https://github.com/ecrurefuse/curry_4DIP/blob/main/LICENSE).
 
 ## Usage
 Curry 4DIP’s pseudocode (Section 5 of the paper) is designed for immediate implementation in Python or AI environments. For example, from the advanced physics section (Section 4.2), the quantum probability density for the hydrogen ground state (\( E = -\frac{13.6}{n^2} \, \text{eV} \), \( n = 1 \)):  
