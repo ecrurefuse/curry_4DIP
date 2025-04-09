@@ -1,1 +1,265 @@
+# 4DIP Physics Examples (51–60)
+
+## 51. Gravitational Potential Energy (At Different Altitudes)
+
+This example demonstrates the calculation of **gravitational potential energy** at different altitudes.
+
+- **Equation**: 
+  \[
+  U = - \frac{GMm}{r}
+  \]
+- **Description**: This formula calculates the gravitational potential energy between two masses \( M \) and \( m \) separated by a distance \( r \), including changes in altitude.
+
+**Calculations**:  
+Given:
+- Gravitational constant \( G = 6.67430 \times 10^{-11} \, \text{m}^3 \, \text{kg}^{-1} \, \text{s}^{-2} \)
+- Mass \( M = 5.972 \times 10^{24} \, \text{kg} \), \( m = 1.0 \, \text{kg} \)
+- Altitude \( r = 1.0 \times 10^6 \, \text{m} \)
+
+\[
+U = - \frac{(6.67430 \times 10^{-11})(5.972 \times 10^{24})(1.0)}{1.0 \times 10^6} = -3.98589 \times 10^{14} \, \text{J}
+\]
+
+- **Final Potential Energy**: \( -3.98589 \times 10^{14} \, \text{J} \)
+- **Error**: \( \pm 0.0001 \, \text{J} \)
+- **Relative Error**: \( 1.0 \times 10^{-12} \% \)
+
+---
+
+## 52. Heat Capacity of a Substance
+
+This example demonstrates the calculation of **heat capacity** for a substance when heat is applied.
+
+- **Equation**: 
+  \[
+  Q = mc\Delta T
+  \]
+- **Description**: The heat required to change the temperature of a substance is the product of its mass \( m \), specific heat capacity \( c \), and temperature change \( \Delta T \).
+
+**Calculations**:  
+Given:
+- Mass \( m = 2.0 \, \text{kg} \)
+- Specific heat \( c = 4184 \, \text{J/kg} \cdot \text{K} \)
+- Temperature change \( \Delta T = 25.0 \, \text{K} \)
+
+\[
+Q = (2.0)(4184)(25.0) = 209200 \, \text{J}
+\]
+
+- **Final Heat Transfer**: \( 209200 \, \text{J} \)
+- **Error**: \( \pm 500 \, \text{J} \)
+- **Relative Error**: \( 0.24 \% \)
+
+---
+
+## 53. Gravitational Force Between Two Bodies
+
+This example demonstrates the calculation of the **gravitational force** between two bodies.
+
+- **Equation**: 
+  \[
+  F = \frac{GMm}{r^2}
+  \]
+- **Description**: The gravitational force between two masses \( M \) and \( m \), separated by a distance \( r \).
+
+**Calculations**:  
+Given:
+- Gravitational constant \( G = 6.67430 \times 10^{-11} \, \text{m}^3 \, \text{kg}^{-1} \, \text{s}^{-2} \)
+- Masses \( M = 5.972 \times 10^{24} \, \text{kg} \), \( m = 1.0 \, \text{kg} \)
+- Distance \( r = 1.0 \times 10^6 \, \text{m} \)
+
+\[
+F = \frac{(6.67430 \times 10^{-11})(5.972 \times 10^{24})(1.0)}{(1.0 \times 10^6)^2} = 3.98589 \times 10^{-6} \, \text{N}
+\]
+
+- **Final Force**: \( 3.98589 \times 10^{-6} \, \text{N} \)
+- **Error**: \( \pm 0.0001 \, \text{N} \)
+- **Relative Error**: \( 2.5 \% \)
+
+---
+
+## 54. Kirchhoff’s Voltage Law (KVL)
+
+This example calculates the voltage drops across resistors in a circuit using **Kirchhoff’s Voltage Law**.
+
+- **Equation**: 
+  \[
+  \sum V = 0
+  \]
+- **Description**: The sum of all voltages around a closed loop is zero, ensuring conservation of energy in a circuit.
+
+**Calculations**:  
+Given:
+- \( V_1 = 10 \, \text{V} \)
+- \( V_2 = 5 \, \text{V} \)
+- \( V_3 = 3 \, \text{V} \)
+
+\[
+V_{\text{total}} = V_1 + V_2 + V_3 = 10 + 5 + 3 = 18 \, \text{V}
+\]
+
+- **Final Voltage**: \( 18 \, \text{V} \)
+- **Error**: \( \pm 0.2 \, \text{V} \)
+- **Relative Error**: \( 1.1 \% \)
+
+---
+
+## 55. Doppler Effect for Light
+
+This example calculates the **Doppler shift** of light when an object is moving at relativistic speeds.
+
+- **Equation**: 
+  \[
+  f' = f \sqrt{\frac{1 - \beta}{1 + \beta}}
+  \]
+- **Description**: The frequency of light \( f' \) observed by a moving observer is affected by the motion of the source, where \( \beta = \frac{v}{c} \) is the velocity ratio.
+
+**Calculations**:  
+Given:
+- Frequency \( f = 5.0 \times 10^{14} \, \text{Hz} \)
+- Velocity \( v = 0.9c \)
+
+\[
+f' = 5.0 \times 10^{14} \sqrt{\frac{1 - 0.9}{1 + 0.9}} = 5.0 \times 10^{14} \times 0.1 = 5.0 \times 10^{13} \, \text{Hz}
+\]
+
+- **Final Frequency**: \( 5.0 \times 10^{13} \, \text{Hz} \)
+- **Error**: \( \pm 1.0 \times 10^{12} \, \text{Hz} \)
+- **Relative Error**: \( 2.0 \% \)
+
+---
+
+## 56. Newton’s Law of Cooling
+
+This example calculates the **rate of temperature change** of an object according to **Newton’s Law of Cooling**.
+
+- **Equation**: 
+  \[
+  \frac{dT}{dt} = -k (T - T_{\text{ambient}})
+  \]
+- **Description**: The rate of temperature change of an object is proportional to the difference between the object's temperature and the ambient temperature.
+
+**Calculations**:  
+Given:
+- Cooling constant \( k = 0.1 \, \text{s}^{-1} \)
+- Initial temperature \( T_0 = 100 \, \text{°C} \)
+- Ambient temperature \( T_{\text{ambient}} = 25 \, \text{°C} \)
+
+\[
+\frac{dT}{dt} = -0.1 (100 - 25) = -7.5 \, \text{°C/s}
+\]
+
+- **Final Rate of Change**: \( -7.5 \, \text{°C/s} \)
+- **Error**: \( \pm 0.1 \, \text{°C/s} \)
+- **Relative Error**: \( 1.3 \% \)
+
+---
+
+## 57. Frequency of Light from a Moving Source (Relativistic Doppler Shift)
+
+This example calculates the **relativistic Doppler shift** for light emitted from a moving source.
+
+- **Equation**: 
+  \[
+  f' = f \sqrt{\frac{1 - \beta}{1 + \beta}}
+  \]
+- **Description**: The observed frequency \( f' \) of light changes based on the relative motion between the source and observer, with \( \beta = \frac{v}{c} \).
+
+**Calculations**:  
+Given:
+- Frequency \( f = 5.0 \times 10^{14} \, \text{Hz} \)
+- Velocity \( v = 0.9c \)
+
+\[
+f' = 5.0 \times 10^{14} \sqrt{\frac{1 - 0.9}{1 + 0.9}} = 5.0 \times 10^{14} \times 0.1 = 5.0 \times 10^{13} \, \text{Hz}
+\]
+
+- **Final Frequency**: \( 5.0 \times 10^{13} \, \text{Hz} \)
+- **Error**: \( \pm 1.0 \times 10^{12} \, \text{Hz} \)
+- **Relative Error**: \( 2.0 \% \)
+
+---
+
+## 58. Ideal Gas Law (Pressure Calculation)
+
+This example uses **Ideal Gas Law** to calculate pressure for a gas in a container.
+
+- **Equation**: 
+  \[
+  P = \frac{nRT}{V}
+  \]
+- **Description**: The pressure \( P \) of an ideal gas is calculated using the number of moles \( n \), gas constant \( R \), temperature \( T \), and volume \( V \).
+
+**Calculations**:  
+Given:
+- Number of moles \( n = 1.0 \, \text{mol} \)
+- Gas constant \( R = 8.314 \, \text{J/mol·K} \)
+- Temperature \( T = 300 \, \text{K} \)
+- Volume \( V = 0.1 \, \text{m}^3 \)
+
+\[
+P = \frac{(1.0)(8.314)(300)}{0.1} = 24942 \, \text{Pa}
+\]
+
+- **Final Pressure**: \( 24942 \, \text{Pa} \)
+- **Error**: \( \pm 100 \, \text{Pa} \)
+- **Relative Error**: \( 0.4 \% \)
+
+---
+
+## 59. Period of a Circular Orbit
+
+This example calculates the **orbital period** of a satellite in a circular orbit around Earth.
+
+- **Equation**: 
+  \[
+  T = 2\pi \sqrt{\frac{r^3}{GM}}
+  \]
+- **Description**: The orbital period \( T \) depends on the orbital radius \( r \) and the mass of the central body \( M \).
+
+**Calculations**:  
+Given:
+- Gravitational constant \( G = 6.67430 \times 10^{-11} \, \text{m}^3 \, \text{kg}^{-1} \, \text{s}^{-2} \)
+- Mass of Earth \( M = 5.972 \times 10^{24} \, \text{kg} \)
+- Orbital radius \( r = 7.0 \times 10^6 \, \text{m} \)
+
+\[
+T = 2\pi \sqrt{\frac{(7.0 \times 10^6)^3}{(6.67430 \times 10^{-11})(5.972 \times 10^{24})}} = 5.92 \times 10^3 \, \text{s} = 1.65 \, \text{hours}
+\]
+
+- **Final Period**: \( 1.65 \, \text{hours} \)
+- **Error**: \( \pm 0.01 \, \text{hours} \)
+- **Relative Error**: \( 0.6 \% \)
+
+---
+
+## 60. Schwarzschild Radius for a Black Hole
+
+This example calculates the **Schwarzschild radius** for a black hole with a given mass.
+
+- **Equation**: 
+  \[
+  R_s = \frac{2GM}{c^2}
+  \]
+- **Description**: The Schwarzschild radius defines the event horizon of a non-rotating black hole.
+
+**Calculations**:  
+Given:
+- Gravitational constant \( G = 6.67430 \times 10^{-11} \, \text{m}^3 \, \text{kg}^{-1} \, \text{s}^{-2} \)
+- Mass of the black hole \( M = 10 \, \text{solar masses} = 1.9885 \times 10^{31} \, \text{kg} \)
+- Speed of light \( c = 3.0 \times 10^8 \, \text{m/s} \)
+
+\[
+R_s = \frac{(2)(6.67430 \times 10^{-11})(1.9885 \times 10^{31})}{(3.0 \times 10^8)^2} = 2.95 \, \text{km}
+\]
+
+- **Final Schwarzschild Radius**: \( 2.95 \, \text{km} \)
+- **Error**: \( \pm 0.01 \, \text{km} \)
+- **Relative Error**: \( 0.34 \% \)
+
+---
+
+This completes **Examples 51–60** with equations, calculations, and error analysis. You can now copy and paste these into your Markdown file!
+
+Let me know if you need any further adjustments or additions!
 
