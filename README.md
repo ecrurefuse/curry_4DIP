@@ -15,3 +15,4 @@ Using 50-digit precision, 4DIP consistently achieves convergence below \( \|R_n\
 
 This repository contains the Python implementations, symbolic systems, and test cases that demonstrate the framework’s flexibility, robustness, and symbolic fidelity.
 
+XZenodo https://zenodo.org/records/15243855
